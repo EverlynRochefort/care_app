@@ -1,67 +1,53 @@
-# CityCare App Starter Project
-
-## Pengantar
-
-Starter project ini dirancang sebagai bahan pelajaran siswa di kelas [Belajar Pengembangan Web Intermediate](https://www.dicoding.com/academies/219).
-
-## Deskripsi
-CityCareApp adalah aplikasi pelaporan kerusakan fasilitas umum yang memungkinkan warga Indonesia melaporkan masalah secara langsung kepada pemerintah kota. Dengan aplikasi ini, komunikasi antara warga dan pemerintah menjadi lebih efisien dalam menangani dan menindaklanjuti laporan kerusakan fasilitas umum.
-
-## Prasyarat
-
-- Node.js (disarankan versi terbaru)
-- npm atau yarn
-
 ## Instalasi
 
-- Unduh starter project [citycareapp-starter-project.zip](https://raw.githubusercontent.com/dicodingacademy/a219-web-intermediate-labs/099-shared-files/citycareapp-starter-project.zip).
-- Unzip berkas ZIP yang telah diunduh. Bisa pakai perintah berikut untuk Linux:
+- Download the starter project [citycareapp-starter-project.zip](https://raw.githubusercontent.com/dicodingacademy/a219-web-intermediate-labs/099-shared-files/citycareapp-starter-project.zip).
+- Unzip the downloaded ZIP file. You can use the following command for Linux::
   ```bash
   unzip ./citycareapp-starter-project.zip
   ```
 
-- Masuk ke direktori proyek:
+- Enter the project directory:
   ```bash
   cd citycareapp-starter-project
   ```
 
-- Pasang seluruh dependensi:
+- Install all dependencies:
   ```bash
   npm install
   ```
 
 ## Scripts
 
-- `npm run build`: Membuat build production menggunakan Webpack.
-- `npm run start-dev`: Menjalankan server development menggunakan Webpack Dev Server.
-- `npm run serve`: Menjalankan server HTTP untuk build yang sudah dibuat.
-- `npm run prettier`: Memeriksa format kode menggunakan Prettier.
-- `npm run prettier:write`: Memformat ulang kode menggunakan Prettier.
+- `npm run build`: Creates a production build using Webpack.
+- `npm run start-dev`: Runs the development server using Webpack Dev Server.
+- `npm run serve`: Runs a HTTP server for the built project.
+- `npm run prettier`: Checks code formatting using Prettier.
+- `npm run prettier:write`: Reformats code using Prettier.
 
 ## Struktur Proyek
 
 ```plaintext
 citycareapp
-├── package.json            # Informasi dependensi proyek
-├── package-lock.json       # File lock untuk dependensi
-├── README.md               # Dokumentasi proyek
-├── webpack.common.js       # Konfigurasi Webpack (umum)
-├── webpack.dev.js          # Konfigurasi Webpack (development)
-├── webpack.prod.js         # Konfigurasi Webpack (production)
-└── src                     # Direktori utama untuk kode sumber
-    ├── index.html          # Berkas HTML utama
-    ├── public              # Direktori aset publik
-    │   ├── favicon.png     # Ikon situs
-    │   └── images          # Gambar yang digunakan dalam proyek
-    ├── scripts             # Direktori untuk kode JavaScript
-    │   ├── data            # Folder untuk API atau sumber data
-    │   ├── pages           # Halaman-halaman utama
-    │   ├── routes          # Pengaturan routing
-    │   ├── utils           # Helper dan utilitas
-    │   ├── templates.js    # Template HTML dinamis
-    │   ├── config.js       # Konfigurasi proyek
-    │   └── index.js        # Entry point aplikasi
-    └── styles              # File CSS
-        ├── responsives.css # Gaya untuk responsivitas
-        └── styles.css      # Gaya umum
+├── package.json            # Project dependencies information
+├── package-lock.json       # Lock file for dependencies
+├── README.md               # Project documentation
+├── webpack.common.js       # Webpack configuration (common)
+├── webpack.dev.js          # Webpack configuration (development)
+├── webpack.prod.js         # Webpack configuration (production)
+└── src                     # Main directory for source code
+    ├── index.html          # Main HTML file
+    ├── public              # Public assets directory
+    │   ├── favicon.png     # Site icon
+    │   └── images          # Images used in the project
+    ├── scripts             # Directory for JavaScript code
+    │   ├── data            # Folder for API or data sources
+    │   ├── pages           # Main pages
+    │   ├── routes          # Routing settings
+    │   ├── utils           # Helpers and utilities
+    │   ├── templates.js    # Dynamic HTML templates
+    │   ├── config.js       # Project configuration
+    │   └── index.js        # Application entry point
+    └── styles              # CSS files
+        ├── responsives.css # Styles for responsiveness
+        └── styles.css      # General styles
 ```
