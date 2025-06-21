@@ -1,4 +1,4 @@
-## Instalasi
+## Installation
 
 - Download the starter project [citycareapp-starter-project.zip](https://raw.githubusercontent.com/dicodingacademy/a219-web-intermediate-labs/099-shared-files/citycareapp-starter-project.zip).
 - Unzip the downloaded ZIP file. You can use the following command for Linux::
@@ -24,7 +24,7 @@
 - `npm run prettier`: Checks code formatting using Prettier.
 - `npm run prettier:write`: Reformats code using Prettier.
 
-## Struktur Proyek
+## Project Structure
 
 ```plaintext
 citycareapp
